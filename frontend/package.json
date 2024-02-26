@@ -1,0 +1,52 @@
+{
+  "name": "study-notion",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "server": "cd server && npm run dev"
+  },
+  "dependencies": {
+    "@ramonak/react-progress-bar": "^5.0.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.5.0",
+    "chart.js": "^4.4.0",
+    "concurrently": "^8.2.1",
+    "copy-to-clipboard": "^3.3.3",
+    "framer-motion": "^10.16.4",
+    "razorpay": "^2.9.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.46.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-markdown": "^9.0.0",
+    "react-otp-input": "^3.0.4",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.16.0",
+    "react-super-responsive-table": "^5.2.2",
+    "react-type-animation": "^3.1.0",
+    "swiper": "^11.0.4",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
